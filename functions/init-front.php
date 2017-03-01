@@ -274,7 +274,7 @@ if ( ! function_exists( 'hu_render_header_image' ) ) {
   function hu_render_header_image( $_header_img_src = null ) {
     echo sprintf('<a href="%1$s" rel="home"><img class="site-image" src="%2$s" alt="%3$s"></a>',
         home_url('/'),
-        get_header_image(),
+        /*get_header_image()*/"https://horovani.cz/wp-content/uploads/2017/02/29.png",
         get_bloginfo('name')
     );
   }
